@@ -1,9 +1,18 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
+
+
+
+TODO:
+1) разметка доски по вертикали и горизонтали 1-8, A-H
+2) ходы короля
+3) обнуление таймера => игрок проиграл
+4) Условия для шаха/мата (в canmove проверять находится ли король под атакой (isKingUnderAtack сюда условие добавить))
+   (у фигуры есть availiable points, если у короля нет свободных полей => мат)
+6) Проход пешки в ферзи
+7) рокировки
+8) Взятие пешки на проходе
+9) запрет хода, если король под ударом
